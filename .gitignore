@@ -1,0 +1,35 @@
+# IDE and OS
+.DS_Store
+.idea/
+.vscode/
+*.iml
+
+# Node
+**/node_modules/
+**/dist/
+**/coverage/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Java and Maven
+**/target/
+*.class
+
+# Runtime output
+*.log
+*.out
+*.err
+*.pid
+*.db
+*.mv.db
+*.trace.db
+
+# Local configuration and credentials
+.env.local
+.env.*.local
+*.pem
+*.p12
+*.pfx
+*.jks
+*.keystore
